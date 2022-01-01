@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 const TableInput = ({ getData }) => {
   const [data, setForm] = useState([]);
-  // const [image, setImage] = useState(null);
+
 
   const ref = useRef(null);
   const handleChange = (e) => {
@@ -13,21 +13,9 @@ const TableInput = ({ getData }) => {
     if (e.target.files && e.target.files[0]) {
       setForm(URL.createObjectURL(e.target.files[0]));
     }
-
-    // value = type === "file" ? url : e.target.files[0];
-    // if (e.target.files && e.target.files[0]) {
-    //   setForm({image: URL.createObjectURL(e.target.files[0])})
-    // }
-
-    // image profilepic: URL.createObjectURL(e.target.files[0])
-
     setForm({ ...data, [name]: value });
   };
-  // const imageChange = (e) => {
-  //   if (e.target.files && e.target.files[0]) {
-  //     setForm(URL.createObjectURL(e.target.files[0]));
-  //   }
-  // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("User Details:", data);
