@@ -1,0 +1,17 @@
+.Home {
+  display: flex;
+  width: 98%;
+  justify-content: flex-end;
+
+  grid-gap: 2%;
+  background-color: #072227;
+  padding: 1%;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+  margin-right: 4%;
+}
+.Link:hover {
+  color: #4fbdba;
+}
