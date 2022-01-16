@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "Learn Redux",
+      "id": "lMt_nxGX"
+    },
+    {
+      "status": false,
+      "title": "React",
+      "id": "lL9WomXu"
+    },
+    {
+      "status": false,
+      "title": "React",
+      "id": "Jdn8KM-Q"
+    },
+    {
+      "status": false,
+      "title": "",
+      "id": "A1Gy6QLX"
+    },
+    {
+      "status": false,
+      "title": "Redux ",
+      "id": "Gca0Q901"
+    },
+    {
+      "status": true,
+      "title": "JavaScript ",
+      "id": "DEK5BasG"
+    }
+  ]
+}
